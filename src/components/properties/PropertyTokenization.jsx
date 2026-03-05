@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import { useESToken } from "@/context/ESTokenContext"
+import { useESToken } from "@/lib/ESTokenContext"
 import useTokenizeProperty from "../../hooks/Properties/useTokenizeProperty"
 import { toast } from "react-toastify"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from "@/components/ui/card"
@@ -377,4 +377,5 @@ const PropertyTokenization = () => {
 }
 
 export default PropertyTokenization
+
 
