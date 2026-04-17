@@ -3,7 +3,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/0x8Bit0/ESToken_v1.git
+   git clone https://github.com/0x8Bit08/ESToken_v1.git
    cd estoken_v1
    ```
 
@@ -15,7 +15,6 @@
 
 3. Install frontend dependencies:
    ```bash
-   cd ../frontend
    npm install
    ```
 
@@ -34,7 +33,7 @@
 
 1. Start the frontend development server:
    ```bash
-   cd frontend
+   cd estoken_v1
    npm run dev
    ```
 
